@@ -5,3 +5,4 @@ RUN sudo addgroup libvirtd
 RUN sudo adduser gitpod libvirtd
 RUN sudo adduser gitpod kvm
 RUN virsh list --all   
+RUN ls -la /var/run/libvirt/libvirt-sock
